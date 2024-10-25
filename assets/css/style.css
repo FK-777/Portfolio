@@ -371,15 +371,19 @@ header{
     font-size: 1.5rem;
 }
 
+.study{
+	border-bottom-right-radius: 250px;
+	border-top-left-radius: 250px;
+}
+
 .what-i-do-area p {
     font-size: 1rem;
     color: #777;
 }
 
 .logo-img{
-	width: 100px;
+	/* width: 100px; */
     height: 50px;
-	
 }
 /* Make Icons Colorful by Default */
 .angular-icon {
@@ -495,7 +499,7 @@ header{
 
 .port figure img {
 	max-width: 100%;
-	display: block;
+	/* display: block; */
 	position: relative;
 }
 

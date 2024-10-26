@@ -42,13 +42,13 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: 'Dosis', sans-serif;
 }
 a {
-	color: #e66f69;
+	/* color: #e66f69; */
 	transition: 0.4s ease all;
 	outline: none;
 }
 a:hover,a:active,a:focus{
 	text-decoration: none;
-	color: #e66f69;
+	/* color: #e66f69; */
 	opacity: 0.9;
 	outline: none;
 }
@@ -150,6 +150,10 @@ header{
 	text-align: left;
 }
 
+.workExp{
+	text-align: center;
+}
+
 .logo-text {
     font-size: 3em;
     padding: 0.2em 0;
@@ -246,6 +250,19 @@ header{
 	border-bottom-left-radius: 5%;
 	border-bottom-right-radius: 5%;
 }
+
+.work-company{
+	/* width: 100%;
+    height: 200%; */
+    border: 1px solid #B5B5B5;
+    text-align: center;
+    display: block;
+    /* border-radius: 50%; */
+	border-top-left-radius: 5%;
+	border-top-right-radius: 5%;
+	border-bottom-left-radius: 5%;
+	border-bottom-right-radius: 5%;
+}
 .wad{
 	width: 100%;
     height: 100%;
@@ -319,6 +336,10 @@ header{
 	border-bottom-right-radius: 40%;
 }
 
+.work-wrap{
+	width: 100%;
+}
+
 /* .service-wrap {
     width: 100%;
     height: 100%;
@@ -355,7 +376,7 @@ header{
 /* General Styles */
 .what-i-do-area figure {
     text-align: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
@@ -372,8 +393,8 @@ header{
 }
 
 .study{
-	border-bottom-right-radius: 250px;
-	border-top-left-radius: 250px;
+	border-bottom-right-radius: 20%;
+	border-top-left-radius: 20%;
 }
 
 .what-i-do-area p {
@@ -381,9 +402,23 @@ header{
     color: #777;
 }
 
+.learned{
+margin: 25px 25px;
+}
+
 .logo-img{
 	/* width: 100px; */
     height: 50px;
+}
+.vbx-logo{
+	width: 30%;
+    height: 30%;
+    margin-top: 10%;
+}
+.tds-logo{
+	width: 30%;
+    height: 30%;
+    margin-top: 10%;
 }
 /* Make Icons Colorful by Default */
 .angular-icon {
@@ -459,7 +494,7 @@ header{
 	left: 0;
 	padding: 20px;
 	background: #f9f9f9 !important;
-	color: #e66f69;
+	color: #6181a3;
 }
 
 .what-i-do-area figure:hover .whatIdoCaption h3, 
@@ -482,6 +517,16 @@ header{
 	list-style: none;
 	text-align: left;
 	padding-bottom: 40px;
+}
+
+.wid-port {
+	list-style: none;
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+.wid-cards{
+	height: 100px;
 }
 
 .port .item {
@@ -815,6 +860,12 @@ footer {
 }
 
 @media all and (max-width: 1200px) and (min-width: 992px) {
+
+	.work{
+		max-width: 293px;
+		height: 300px;
+		justify-content: center;
+	}
 
 	.services {
 		max-width: 293px;

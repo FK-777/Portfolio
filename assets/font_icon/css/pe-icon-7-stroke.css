@@ -309,6 +309,9 @@
 .pe-7s-monitor:before {
 	content: "\e634";
 }
+.pe-7s-mobile:before {
+	content: "\e634";
+}
 .pe-7s-micro:before {
 	content: "\e635";
 }

@@ -27,6 +27,18 @@
 
         <script src="assets/js/modernizr.js"></script>
 
+        <!-- <script src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script>
+  (function() {
+    emailjs.init("4cq3ZNmy1z1WaXrc3");
+  })();
+</script>
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
     </head>
     <body id="body">
         <!--[if lt IE 7]>
@@ -77,9 +89,9 @@
         <section id="what-i-do" class="what-i-do-area">
             <div class="container">
                 <h2 class="block_title">What I Do</h2>
-                <div class="row port cs-style-3">
+                <div class="row wid-port cs-style-3">
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space">
-                        <figure>
+                        <figure class="wid-cards">
                             <!-- <i class="fab fa-angular fa-3x angular-icon"></i> -->
                             <img src="assets/icons/angular.png" alt="node" class="logo-img" style="width: 80px;">
                             <figcaption class="whatIdoCaption">
@@ -89,7 +101,7 @@
                         </figure>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space">
-                        <figure>
+                        <figure class="wid-cards">
                             <!-- <i class="fas fa-database fa-3x mongodb-icon"></i> -->
                             <img src="assets/icons/ionic.png" alt="node" class="logo-img" style="width: 100px;">
                             <figcaption class="whatIdoCaption">
@@ -99,7 +111,7 @@
                         </figure>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space">
-                        <figure>
+                        <figure class="wid-cards">
                             <!-- <i class="fab fa-angular fa-3x angular-icon"></i> -->
                             <img src="assets/icons/capacitor.png" alt="node" class="logo-img" style="width: 85px;">
                             <figcaption class="whatIdoCaption">
@@ -109,7 +121,7 @@
                         </figure>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space">
-                        <figure>
+                        <figure class="wid-cards">
                             <!-- <i class="fab fa-node-js fa-3x node-icon"></i> -->
                             <img src="assets/icons/nodejs.png" alt="node" class="logo-img" style="width: 100px;">
                             <figcaption class="whatIdoCaption">
@@ -119,9 +131,9 @@
                         </figure>
                     </div>
                 </div>
-                <div class="row port cs-style-3">
+                <div class="row wid-port cs-style-3">
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space">
-                        <figure>
+                        <figure class="wid-cards">
                             <!-- <i class="fab fa-node-js fa-3x express-icon"></i> -->
                             <img src="assets/icons/express.png" alt="node" class="logo-img" style="width: 115px;">
                             <figcaption class="whatIdoCaption">
@@ -131,7 +143,7 @@
                         </figure>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space">
-                        <figure>
+                        <figure class="wid-cards">
                             <!-- <i class="fab fa-node-js fa-3x node-icon"></i> -->
                             <img src="assets/icons/cordova.png" alt="node" class="logo-img" style="width: 100px;">
                             <figcaption class="whatIdoCaption">
@@ -141,7 +153,7 @@
                         </figure>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space">
-                        <figure>
+                        <figure class="wid-cards">
                             <!-- <i class="fas fa-cube fa-3x strapi-icon"></i> -->
                             <img src="assets/icons/strapi.png" alt="node" class="logo-img" style="width: 90px;">
                             <figcaption class="whatIdoCaption">
@@ -151,7 +163,7 @@
                         </figure>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space">
-                        <figure>
+                        <figure class="wid-cards">
                             <!-- <i class="fas fa-database fa-3x mongodb-icon"></i> -->
                             <img src="assets/icons/postman.png" alt="node" class="logo-img" style="width: 100px;">
                             <figcaption class="whatIdoCaption">
@@ -161,9 +173,9 @@
                         </figure>
                     </div>
                 </div>
-                <div class="row port cs-style-3">
+                <div class="row wid-port cs-style-3">
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space">
-                        <figure>
+                        <figure class="wid-cards">
                             <!-- <i class="fab fa-angular fa-3x angular-icon"></i> -->
                             <img src="assets/icons/npm.png" alt="node" class="logo-img" style="width: 80px;">
                             <figcaption class="whatIdoCaption">
@@ -173,7 +185,7 @@
                         </figure>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space">
-                        <figure>
+                        <figure class="wid-cards">
                             <!-- <i class="fab fa-node-js fa-3x node-icon"></i> -->
                             <img src="assets/icons/github.png" alt="node" class="logo-img" style="width: 110px;">
                             <figcaption class="whatIdoCaption">
@@ -183,7 +195,7 @@
                         </figure>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space">
-                        <figure>
+                        <figure class="wid-cards">
                             <!-- <i class="fas fa-database fa-3x mongodb-icon"></i> -->
                             <img src="assets/icons/slack.png" alt="node" class="logo-img" style="width: 80px;">
                             <figcaption class="whatIdoCaption">
@@ -193,7 +205,7 @@
                         </figure>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space">
-                        <figure>
+                        <figure class="wid-cards">
                             <!-- <i class="fas fa-database fa-3x mongodb-icon"></i> -->
                             <img src="assets/icons/figma.png" alt="node" class="logo-img" style="width: 90px;">
                             <figcaption class="whatIdoCaption">
@@ -203,9 +215,9 @@
                         </figure>
                     </div>
                 </div>
-                <div class="row port cs-style-3">
+                <div class="row wid-port cs-style-3">
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space">
-                        <figure>
+                        <figure class="wid-cards">
                             <!-- <i class="fab fa-html5 fa-3x html5-icon"></i> -->
                             <img src="assets/icons/jQuery.png" alt="node" class="logo-img" style="width: 80px;">
                             <figcaption class="whatIdoCaption">
@@ -215,7 +227,7 @@
                         </figure>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space">
-                        <figure>
+                        <figure class="wid-cards">
                             <!-- <i class="fab fa-css3-alt fa-3x css3-icon"></i> -->
                             <img src="assets/icons/bootstrap.png" alt="node" class="logo-img" style="width: 80px;">
                             <figcaption class="whatIdoCaption">
@@ -225,7 +237,7 @@
                         </figure>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space">
-                        <figure>
+                        <figure class="wid-cards">
                             <!-- <i class="fab fa-css3-alt fa-3x css3-icon"></i> -->
                             <img src="assets/icons/mui.png" alt="node" class="logo-img" style="width: 115px;">
                             <figcaption class="whatIdoCaption">
@@ -235,7 +247,7 @@
                         </figure>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space">
-                        <figure>
+                        <figure class="wid-cards">
                             <!-- <i class="fab fa-css3-alt fa-3x css3-icon"></i> -->
                             <img src="assets/icons/stackoverflow.png" alt="node" class="logo-img" style="width: 115px;">
                             <figcaption class="whatIdoCaption">
@@ -245,9 +257,9 @@
                         </figure>
                     </div>
                 </div>
-                <div class="row port cs-style-3">
+                <div class="row wid-port cs-style-3">
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space">
-                        <figure>
+                        <figure class="wid-cards">
                             <!-- <i class="fab fa-html5 fa-3x html5-icon"></i> -->
                             <img src="assets/icons/html.png" alt="node" class="logo-img" style="width: 80px;">
                             <figcaption class="whatIdoCaption">
@@ -257,7 +269,7 @@
                         </figure>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space">
-                        <figure>
+                        <figure class="wid-cards">
                             <!-- <i class="fab fa-css3-alt fa-3x css3-icon"></i> -->
                             <img src="assets/icons/css.png" alt="node" class="logo-img" style="width: 80px;">
                             <figcaption class="whatIdoCaption">
@@ -284,7 +296,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="services">
                             <div class="service-wrap uiux">    
-                                <i class="pe-7s-science pe-dj pe-va"></i>
+                                <i class="pe-7s-paint pe-dj pe-va"></i>
                                 <h3>UI/UX design</h3>
                                 <p>User interface design for mobile and web applications with experience research and usability testing</p>
                             </div>
@@ -294,7 +306,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="services">
                             <div class="service-wrap mad">
-                                <i class="pe-7s-monitor pe-dj pe-va"></i>
+                                <i class="pe-7s-phone pe-dj pe-va"></i>
                                 <h3>Mobile App Development</h3>
                                 <p>Custom native apps for iOS and Android and cross platform apps</p>
                             </div>
@@ -303,7 +315,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="services">
                             <div class="service-wrap wad">
-                                <i class="pe-7s-edit pe-dj pe-va"></i>
+                                <i class="pe-7s-browser pe-dj pe-va"></i>
                                 <h3>Web App Development</h3>
                                 <p>Development of responsive and dynamic web applications</p>
                             </div>
@@ -312,7 +324,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="services">
                             <div class="service-wrap adi">
-                                <i class="pe-7s-config pe-dj pe-va"></i>
+                                <i class="pe-7s-network pe-dj pe-va"></i>
                                 <h3>API Development &amp; Integration</h3>
                                 <p>Building RESTful and GraphQL APIs, integrating third-party services and payment gateways</p>
                             </div>
@@ -323,7 +335,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="services">
                             <div class="service-wrap tpi">    
-                                <i class="pe-7s-science pe-dj pe-va"></i>
+                                <i class="pe-7s-plug pe-dj pe-va"></i>
                                 <h3>Third-Party API Integration</h3>
                                 <p>Integrating various APIs to extend application functionality (e.g., Google Maps, weather data, SMS gateways)</p>
                             </div>
@@ -333,7 +345,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="services">
                             <div class="service-wrap ddm">
-                                <i class="pe-7s-monitor pe-dj pe-va"></i>
+                                <i class="pe-7s-server pe-dj pe-va"></i>
                                 <h3>Database Development &amp; Management</h3>
                                 <p>Database design, implementation, and optimization</p>
                             </div>
@@ -342,7 +354,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="services">
                             <div class="service-wrap qa">
-                                <i class="pe-7s-edit pe-dj pe-va"></i>
+                                <i class="pe-7s-check pe-dj pe-va"></i>
                                 <h3>Quality Assurance</h3>
                                 <p>Manual and automated testing services</p>
                             </div>
@@ -351,7 +363,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="services">
                             <div class="service-wrap ms">
-                                <i class="pe-7s-config pe-dj pe-va"></i>
+                                <i class="pe-7s-tools pe-dj pe-va"></i>
                                 <h3>Maintenance &amp; Support</h3>
                                 <p>Technical support and required updates for mobile and web applications</p>
                             </div>
@@ -440,27 +452,65 @@
             <div class="container">
                 <h2 class="block_title">Work Experience</h2>
                 <div class="row port cs-style-3">
-                    <div class="col-md-4 col-sm-6 col-xs-12 item-space">
-                        <figure>
+
+
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="work">
+                            <div class="work-company">  
+                                <!-- <i class="pe-7s-science pe-dj pe-va"></i> -->
+                                <img src="assets/icons/takdevslogo.png" alt="node" class="tds-logo" style="width: 80px;">
+                                <h3>TakDevs Pvt. Ltd. | Islamabad</h3>
+                                <p>Full Stack Developer</p>
+                                <p class="learned">Experienced in designing, developing, and maintaining scalable web applications using modern technologies like Angular, Strapi, and Node.js. Skilled in collaborative code management with Git for effective branching and merging. Committed to high performance through thorough testing, debugging, and prompt issue resolution</p>
+                                <h4>October 2023 - Present</h4>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="work">
+                            <div class="work-company">    
+                                <!-- <i class="pe-7s-science pe-dj pe-va"></i> -->
+                                <img src="assets/icons/visionbotix.jpeg" alt="node" class="tds-logo" style="width: 80px;">
+                                <h3>VisionBotix SMC Ltd. | Islamabad</h3>
+                                <p>Full Stack Developer</p>
+                                <p class="learned">Collaborative in gathering and analyzing requirements with cross-functional teams, translating them into technical specifications to deliver solutions aligned with business needs. Skilled in writing clean, efficient, and well-documented code, consistently adhering to best practices and coding standards</p>
+                                <h4>June 2021 - September 2023</h4>
+
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+
+
+
+
+
+                    <!-- <div class="col-md-6 col-sm-6 col-xs-12 item-space">
+                        <figure class="workExp">
                             <img src="assets/images/portfolio1.jpg" alt="img04">
                             <figcaption>
-                                <h3>Settings</h3>
+                                <h3>TAKDevs Pvt Ltd</h3>
                                 <span>Jacob Cummings</span>
                                 <a href="#" class="button" >Take a look</a>
                             </figcaption>
                         </figure>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 item-space">
-                        <figure>
+                    <div class="col-md-6 col-sm-6 col-xs-12 item-space">
+                        <figure class="workExp">
                             <img src="assets/images/portfolio2.jpg" alt="img01">
                             <figcaption>
-                                <h3>Camera</h3>
+                                <h3>VisionBotixs</h3>
                                 <span>Jacob Cummings</span>
                                 <a href="#" class="button" >Take a look</a>
                             </figcaption>
                         </figure>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                    </div> -->
+
+                    <!-- <div class="col-md-4 col-sm-6 col-xs-12 item-space">
                         <figure>
                             <img src="assets/images/portfolio3.jpg" alt="img02">
                             <figcaption>
@@ -502,7 +552,7 @@
                     </div>
                     <div class="col-xs-12">
                         <div class="btn-center"><a href="#" class="big button">View all</a></div>
-                    </div>
+                    </div> -->
                 </div>
             </div><!-- container -->
         </section><!-- portfolio -->
@@ -525,13 +575,13 @@
                                     <li><i class="pe-7s-map-marker"></i><span>45710, Islamabad, Pakistan</span></li>
                                     <li><i class="pe-7s-mail"></i><span>farazgul521@gmail.com</span></li>
                                     <li><i class="pe-7s-phone"></i><span>+92-343-5517731</span></li>
-                                    <li><i class="pe-7s-global"></i><span><a href="#">www.themewagon.com</a></span></li>
+                                    <!-- <li><i class="pe-7s-global"></i><span><a href="#">www.themewagon.com</a></span></li> -->
                                 </ul>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <h2 class="con-title">Shoot me a message!</h2>
-                            <form role="form">
+                            <!-- <form role="form" id="contact-form">
                               <div class="form-group">
                                 <input type="text" class="form-control" id="user_name" placeholder="Enter your name">
                               </div>
@@ -541,9 +591,37 @@
                               <div class="form-group">
                                 <textarea name="InputMessage" id="user_message" class="form-control" rows="5" required></textarea>
                               </div>
-
                               <button type="submit" class="btn medium">Let me know</button>
-                            </form>   
+                            </form> -->
+
+                            <form role="form" id="contact-form">
+                                <div class="form-group">
+                                  <input type="text" class="form-control" id="from_name" name="from_name" placeholder="Enter your name">
+                                </div>
+                                <div class="form-group">
+                                  <input type="email" class="form-control" id="from_email" name="from_email" placeholder="Enter your email">
+                                </div>
+                                <div class="form-group">
+                                  <textarea name="message" id="message" class="form-control" rows="5" required placeholder="Enter your message"></textarea>
+                                </div>
+                                <button type="submit" class="btn medium">Let me know</button>
+                              </form>
+                              
+
+                            <script>
+                                document.getElementById("contact-form").addEventListener("submit", function(event) {
+                                  event.preventDefault(); // Prevent default form submission
+                                  emailjs.sendForm("service_9v3kgj1", "template_1g7mtdb", this)
+                                    .then(function(response) {
+                                        document.getElementById("contact-form").reset();
+                                        alert("Message sent successfully!");
+                                    }, function(error) {
+                                       alert("Failed to send message, please try again.");
+                                    });
+                                });
+                              </script>
+
+
                         </div>
                     </div>
                 </div><!-- container -->
